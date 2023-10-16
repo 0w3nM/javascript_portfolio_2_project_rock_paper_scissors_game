@@ -15,13 +15,19 @@
 <body>
     <h1 class="header">Rock Paper Scissors</h1>
 
+    <form id="name-card">
+        <label for="name-field">Name: </label>
+        <input required id="name-field" type="text" name="full_name"/>
+        <input type="submit"/>
+    </form>
+
     <div class="selection-board">
         <div class="user-selection">
-            <button id="rock" class="rock btn--big"><i class="fa-solid fa-hand-back-fist"></i></button>
-            <button id="paper" class="paper btn--big"><i class="fa-solid fa-hand"></i></button>
-            <button id="scissors" class="scissors btn--big"><i class="fa-solid fa-hand-scissors"></i></button>
-            <button id="lizard" class="lizard btn--big"><i class="fa-solid fa-hand-lizard"></i></button>
-            <button id="spock" class="spock btn--big"><i class="fa-solid fa-hand-spock"></i></button>
+            <button game-type="rock" class="btn btn--big btn--brown"><i class="fa-solid fa-hand-back-fist"></i></button>
+            <button game-type="paper" class="btn btn--big btn--white"><i class="fa-solid fa-hand"></i></button>
+            <button game-type="scissors" class="btn btn--big btn--silver"><i class="fa-solid fa-hand-scissors"></i></button>
+            <button game-type="lizard" class="btn btn--big btn--green"><i class="fa-solid fa-hand-lizard"></i></button>
+            <button game-type="spock" class="btn btn--big btn--purple"><i class="fa-solid fa-hand-spock"></i></button>
         </div>
     </div>
     <div>

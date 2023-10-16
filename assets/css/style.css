@@ -16,7 +16,7 @@ html {
 }
 
 /*--------------------Buttons */
-.rock {
+.btn--brown {
     background-color: #A52A2A;
     font-size: 3.2rem;
     padding: 20px;
@@ -28,8 +28,14 @@ html {
     margin: 10px;
 }
 
-.paper {
-    background-color: #ffffff;
+.btn--brown:active,
+.btn--brown:hover {
+    background-color: #b22222;
+    border: 8px solid #ffd700;
+}
+
+.btn--white {
+    background-color: #F8F8FF;
     font-size: 3.2rem;
     padding: 20px;
     border: 5px solid #ffd700;
@@ -40,7 +46,13 @@ html {
     margin: 10px;
 }
 
-.scissors {
+.btn--white:active,
+.btn--white:hover {
+    background-color: #FDF5E6;
+    border: 8px solid #ffd700;
+}
+
+.btn--silver {
     background-color: #c0c0c0c0;
     font-size: 3.2rem;
     padding: 20px;
@@ -52,7 +64,13 @@ html {
     margin: 10px;
 }
 
-.lizard {
+.btn--silver:active,
+.btn--silver:hover {
+    background-color: #DCDCDC;
+    border: 8px solid #ffd700;
+}
+
+.btn--green {
     background-color: #00FF7F;
     font-size: 3.2rem;
     padding: 20px;
@@ -64,7 +82,13 @@ html {
     margin: 10px;
 }
 
-.spock {
+.btn--green:active,
+.btn--green:hover {
+    background-color: #ADFF2F;
+    border: 8px solid #ffd700;
+}
+
+.btn--purple {
     background-color: #800080;
     font-size: 3.2rem;
     padding: 20px;
@@ -74,6 +98,12 @@ html {
     height: 200px;
     width: 200px;
     margin: 10px;
+}
+
+.btn--purple:active,
+.btn--purple:hover {
+    background-color: #7B68EE;
+    border: 8px solid #ffd700;
 }
 
 .generate {
@@ -88,6 +118,11 @@ html {
     border-radius: 10px;
     left: 47%;
     font-family: 'Oswald', 'sans-serif';
+}
+
+.generate:hover {
+    background-color: #F0FFF0;
+    border: 8px solid #1E90FF;
 }
 
 .selection-board {
@@ -105,6 +140,7 @@ html {
     justify-content: space-evenly;
     margin-top: 2rem;
 }
+
 
 /* ----------------Scoring area */
 .score-box {
