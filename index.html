@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="A game of Rock, Paper, Scissors, Lizard, Spock">
+    <meta name="keywords" content="rock, paper, scissors, lizard, spock">
     <title>R.P.S.L.S Game</title>
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <script
       src="https://kit.fontawesome.com/1bb1a905c4.js"
       crossorigin="anonymous"
@@ -12,7 +14,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Oswald&family=Skranji:wght@700&family=Titillium+Web:wght@300&display=swap"
       rel="stylesheet"
-    />
+    >
   </head>
 
   <body>
@@ -20,25 +22,25 @@
 
     <form id="name-card">
       <label for="fname" id="name">Name: </label>
-      <input name="fname" id="fname" type="text" required />
-      <input type="submit" id="submit" />
+      <input name="fname" id="fname" type="text" required>
+      <input type="submit" id="submit">
     </form>
 
     <div class="selection-board">
       <div class="user-selection">
-        <button id="rock" class="btn btn--big btn--brown">
+        <button id="rock" aria-label="rock" class="btn btn--big btn--brown">
           <i class="fa-solid fa-hand-back-fist"></i>
         </button>
-        <button id="paper" class="btn btn--big btn--white">
+        <button id="paper" aria-label="paper" class="btn btn--big btn--white">
           <i class="fa-solid fa-hand"></i>
         </button>
-        <button id="scissors" class="btn btn--big btn--silver">
+        <button id="scissors" aria-label="scissors" class="btn btn--big btn--silver">
           <i class="fa-solid fa-hand-scissors"></i>
         </button>
-        <button id="lizard" class="btn btn--big btn--green">
+        <button id="lizard" aria-label="lizard" class="btn btn--big btn--green">
           <i class="fa-solid fa-hand-lizard"></i>
         </button>
-        <button id="spock" class="btn btn--big btn--purple">
+        <button id="spock" aria-label="spock" class="btn btn--big btn--purple">
           <i class="fa-solid fa-hand-spock"></i>
         </button>
       </div>
