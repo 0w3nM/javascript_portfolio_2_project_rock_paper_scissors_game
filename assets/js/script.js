@@ -10,7 +10,6 @@ document.getElementById("paper").addEventListener("click", playGame);
 document.getElementById("scissors").addEventListener("click", playGame);
 document.getElementById("lizard").addEventListener("click", playGame);
 document.getElementById("spock").addEventListener("click", playGame);
-document.getElementById("generate").addEventListener("click", playGame);
 
 /* Randomiser function */
 function randomChoice() {
@@ -19,91 +18,105 @@ function randomChoice() {
 }
 
 /* Game function */
-function playGame(userChoice) {
+function playGame(event) {
+
+    let userChoice = event.target.id;
     const opponentChoice = randomChoice();
+
+    if (event.target.id) {
+        userChoice = event.target.id;
+    }
+    else {
+        userChoice = event.target.parentElement.id;
+    }
+
     if (userChoice === opponentChoice) {
         alert("DRAW");
     }
 
-    else if (userChoice == 'rock') {
-        if (opponentChoice == 'paper') {
-            alert("LOSE");
+    else if (userChoice === 'rock') {
+        if (opponentChoice === 'paper') {
+            alert("Opponent chose paper YOU LOSE");
             opponent++;
-        } else if (opponentChoice == 'scissors') {
-            alert('WIN');
+        } else if (opponentChoice === 'scissors') {
+            alert('Opponent chose scissors YOU WIN');
             scores++;
-        } else if (opponentChoice == 'lizard') {
-            alert('WIN');
+        } else if (opponentChoice === 'lizard') {
+            alert('Opponent chose lizard YOU WIN');
             scores++;
-        } else if (opponentChoice == 'spock') {
-            alert('Lose');
-            opponent++;
-        }
-    }
-
-    else if (userChoice == 'paper') {
-        if (opponentChoice == 'rock') {
-            alert("WIN");
-            scores++;
-        } else if (opponentChoice == 'scissors') {
-            alert('LOSE');
-            scores++;
-        } else if (opponentChoice == 'lizard') {
-            alert('lOSE');
-            opponent++;
-        } else if (opponentChoice == 'spock') {
-            alert('WIN');
-            scores++;
-        }
-    }
-
-    else if (userChoice == 'scissors') {
-        if (opponentChoice == 'paper') {
-            alert("WIN");
-            scores++;
-        } else if (opponentChoice == 'rock') {
-            alert('LOSE');
-            opponent++;
-        } else if (opponentChoice == 'lizard') {
-            alert('WIN');
-            scores++;
-        } else if (opponentChoice == 'spock') {
-            alert('LOSE');
+        } else if (opponentChoice === 'spock') {
+            alert('Opponent chose spock YOU LOSE');
             opponent++;
         }
     }
 
-    else if (userChoice == 'lizard') {
-        if (opponentChoice == 'paper') {
-            alert("WIN");
+    else if (userChoice === 'paper') {
+        if (opponentChoice === 'rock') {
+            alert("Opponent chose rock YOU WIN");
             scores++;
-        } else if (opponentChoice == 'scissors') {
-            alert('LOSE');
+        } else if (opponentChoice === 'scissors') {
+            alert('Opponent chose scissors YOU LOSE');
+            scores++;
+        } else if (opponentChoice === 'lizard') {
+            alert('Opponent chose lizard YOU LOSE');
             opponent++;
-        } else if (opponentChoice == 'rock') {
-            alert('LOSE');
-            opponent++;
-        } else if (opponentChoice == 'spock') {
-            alert('WIN');
+        } else if (opponentChoice === 'spock') {
+            alert('Opponent chose spock YOU WIN');
             scores++;
         }
     }
 
-    else if (userChoice == 'spock') {
-        if (opponentChoice == 'paper') {
-            alert("LOSE");
-            opponent++;
-        } else if (opponentChoice == 'scissors') {
-            alert('WIN');
+    else if (userChoice === 'scissors') {
+        if (opponentChoice === 'paper') {
+            alert("Opponent chose paper YOU WIN");
             scores++;
-        } else if (opponentChoice == 'lizard') {
-            alert('LOSE');
+        } else if (opponentChoice === 'rock') {
+            alert('Opponent chose rock YOU LOSE');
             opponent++;
-        } else if (opponentChoice == 'rock') {
-            alert('WIN');
+        } else if (opponentChoice === 'lizard') {
+            alert('Opponent chose lizard YOU WIN');
+            scores++;
+        } else if (opponentChoice === 'spock') {
+            alert('Opponent chose spock YOU LOSE');
+            opponent++;
+        }
+    }
+
+    else if (userChoice === 'lizard') {
+        if (opponentChoice === 'paper') {
+            alert("Opponent chose paper YOU WIN");
+            scores++;
+        } else if (opponentChoice === 'scissors') {
+            alert('Opponent chose scissors YOU LOSE');
+            opponent++;
+        } else if (opponentChoice === 'rock') {
+            alert('Opponent chose ROCK YOU LOSE');
+            opponent++;
+        } else if (opponentChoice === 'spock') {
+            alert('Opponent chose spock YOU WIN');
             scores++;
         }
     }
+
+    else if (userChoice === 'spock') {
+        if (opponentChoice === 'paper') {
+            alert("Opponent chose  paper YOU LOSE");
+            opponent++;
+        } else if (opponentChoice === 'scissors') {
+            alert('Opponent chose scissors YOU WIN');
+            scores++;
+        } else if (opponentChoice === 'lizard') {
+            alert('Opponent chose lizard YOU LOSE');
+            opponent++;
+        } else if (opponentChoice === 'rock') {
+            alert('Opponent chose rock YOU WIN');
+            scores++;
+        }
+    }
+
+
+    console.log(opponentChoice);
+    console.log(userChoice);
 
     turns++;
     document.getElementById("tries").textContent = turns;
@@ -112,19 +125,21 @@ function playGame(userChoice) {
 
     if (turns === 5) {
         if (scores >= 3) {
-            alert("GAME OVER YOU WIN !!");
+            alert(`Opponent chose ${opponentChoice} GAME OVER YOU WIN !!`);
         } else {
-            alert("GAME OVER YOU LOSE !!");
+            alert(`Opponent chose ${opponentChoice} GAME OVER YOU LOSE !!`);
         }
         replayGame();
     }
-}   
-    
+}
+
 
 /* Game replay */
 function replayGame() {
     scores = 0;
-    tries = 0;
+    turns = 0;
+    opponent = 0;
     document.getElementById("tries").textContent = turns;
     document.getElementById("player-score").textContent = scores;
+    document.getElementById("opponentChoice").textContent = opponent;
 }
