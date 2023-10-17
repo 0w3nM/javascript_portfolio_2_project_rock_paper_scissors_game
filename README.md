@@ -70,7 +70,7 @@ This game is targeted at all age groups that simply wish to pass the time with t
 
 ## Devices Used -
     - 12th Gen Intel (R) Core TM i7-12700F - Desktop
-    - Samsung Galaxy s20 5g- Mobile
+    - 
     - 
 # Credits-
 
