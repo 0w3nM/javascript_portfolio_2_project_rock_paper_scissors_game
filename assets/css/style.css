@@ -219,3 +219,178 @@ html {
 #opponent{
   color: red;
 }
+/* -------------------Media Queries */
+@media screen and (max-width: 950px) {
+    #name-card {
+        position: absolute;
+        right: 26%;
+        background-image: linear-gradient(to right, green, blue);
+        border: 5px solid gold;
+        padding-bottom: 8px;
+        padding-left: 18px;
+        padding-right: 25px;
+    }
+
+    .scores {
+        display: inline-block;
+        font-size: 35px;
+        font-family: 'Titillium Web', 'sans-serif';
+        position: absolute;
+        left: 31%;
+        top: 74%;
+        text-align: center;
+        background-color: #B0C4DE;
+        margin: 10px;
+        width: 13%;
+        border: 10px solid #ffd700;
+    }
+
+    .turns {
+        display: inline-block;
+        font-size: 35px;
+        font-family: 'Titillium Web', 'sans-serif';
+        position: absolute;
+        top: 85%;
+        left: 43%;
+        text-align: center;
+        background-color: #B0C4DE;
+        margin: 10px;
+        width: 13%;
+        border: 10px solid #ffd700;
+    }
+
+    .opponent {
+        display: inline-block;
+        font-size: 35px;
+        font-family: 'Titillium Web', 'sans-serif';
+        position: absolute;
+        top: 74%;
+        left: 55%;
+        text-align: center;
+        background-color: #B0C4DE;
+        margin: 10px;
+        width: 20%;
+        border: 10px solid #ffd700;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .scores {
+        display: inline-block;
+        font-size: 35px;
+        font-family: 'Titillium Web', 'sans-serif';
+        position: absolute;
+        left: 21%;
+        top: 74%;
+        text-align: center;
+        background-color: #B0C4DE;
+        margin: 10px;
+        width: 15%;
+        border: 10px solid #ffd700;
+    }
+
+    .turns {
+        display: inline-block;
+        font-size: 35px;
+        font-family: 'Titillium Web', 'sans-serif';
+        position: absolute;
+        top: 85%;
+        left: 39%;
+        text-align: center;
+        background-color: #B0C4DE;
+        margin: 10px;
+        width: 13%;
+        border: 10px solid #ffd700;
+    }
+
+    .opponent {
+        display: inline-block;
+        font-size: 35px;
+        font-family: 'Titillium Web', 'sans-serif';
+        position: absolute;
+        top: 74%;
+        left: 55%;
+        text-align: center;
+        background-color: #B0C4DE;
+        margin: 10px;
+        width: 24%;
+        border: 10px solid #ffd700;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header {
+        position: fixed;
+        color: #ffffff;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 4.5rem;
+        font-family: 'Skranji', 'sans-serif';
+        right: 1px;
+    }
+
+    #name-card {
+        position: fixed;
+        background-image: linear-gradient(to right, green, blue);
+        border: 5px solid gold;
+        padding-bottom: 8px;
+        padding-left: 37px;
+        padding-right: 9px;
+        margin-left: 20%;
+        top: 27%;
+        left: 27px;
+    }
+
+    .selection-board {
+        position: relative;
+        box-sizing: border-box;
+        max-height: 642px;
+        left: 16%;
+        max-width: 437px;
+        margin-left: 27%;
+        padding: 2.6%;
+        top: 600px;
+    }
+
+    .scores {
+        display: inline-block;
+        font-size: 35px;
+        font-family: 'Titillium Web', 'sans-serif';
+        position: absolute;
+        left: 12%;
+        top: 74%;
+        text-align: center;
+        background-color: #B0C4DE;
+        margin: 10px;
+        width: 28%;
+        border: 10px solid #ffd700;
+    }
+
+    .turns {
+        display: inline-block;
+        font-size: 35px;
+        font-family: 'Titillium Web', 'sans-serif';
+        position: absolute;
+        top: 93%;
+        left: 39%;
+        text-align: center;
+        background-color: #B0C4DE;
+        margin: 10px;
+        width: 25%;
+        border: 10px solid #ffd700;
+    }
+
+    .opponent {
+        display: inline-block;
+        font-size: 35px;
+        font-family: 'Titillium Web', 'sans-serif';
+        position: absolute;
+        top: 74%;
+        left: 65%;
+        text-align: center;
+        background-color: #B0C4DE;
+        margin: 10px;
+        width: 39%;
+        border: 10px solid #ffd700;
+    }
+}
