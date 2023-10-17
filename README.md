@@ -24,7 +24,6 @@ This game is targeted at all age groups that simply wish to pass the time with t
 
   ![Button options to choose](assets/images/js_choices.png)
  
-
 - Game Results:
     * Each box has it numerical value in differnet colors for aethestics reason along with identifying them to their indivdual positions.
     * The boxes are aligned in a downward facing triangle to keep the them seperate and for aesthetic reasons.
@@ -53,7 +52,7 @@ This game is targeted at all age groups that simply wish to pass the time with t
   ![Html validator result](assets/images/html_validation.png)
 
 - JShint - [JShint validator](https://jshint.com/)
-  ![JShint result](assets/images/jshint_validation)
+  ![JShint result](assets/images/jshint_validation.png)
 
 - CSS - [W3C validator](https://jigsaw.w3.org/css-validator/)
     ![css result](assets/images/css_validation.png)
@@ -65,13 +64,13 @@ This game is targeted at all age groups that simply wish to pass the time with t
   
 ## Web Browser used -
 
-- Google Chrom
+- Google Chrome
 - Microsoft Edge
 
 ## Devices Used -
     - 12th Gen Intel (R) Core TM i7-12700F - Desktop
-    - 
-    - 
+    - HP EliteBook 840 G5 - Laptop
+
 # Credits-
 
 ## Content-
