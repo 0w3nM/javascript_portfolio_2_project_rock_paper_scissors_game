@@ -13,35 +13,33 @@
 </head>
 
 <body>
-    <h1 class="header">Rock Paper Scissors</h1>
+    <h1 class="header">Rock Paper Scissors Lizard Spock</h1>
+  
+  <form id="name-card">
+    <label for="fname" id="name">Name: </label>
+    <input name="fname" id="fname" type="text" required>      
+    <input type="submit" id="submit"/>
+  </form>
 
-    <form id="name-card">
-        <label for="name-field">Name: </label>
-        <input required id="name-field" type="text" name="full_name"/>
-        <input type="submit"/>
-    </form>
-
-    <div class="selection-board">
-        <div class="user-selection">
-            <button game-type="rock" class="btn btn--big btn--brown"><i class="fa-solid fa-hand-back-fist"></i></button>
-            <button game-type="paper" class="btn btn--big btn--white"><i class="fa-solid fa-hand"></i></button>
-            <button game-type="scissors" class="btn btn--big btn--silver"><i class="fa-solid fa-hand-scissors"></i></button>
-            <button game-type="lizard" class="btn btn--big btn--green"><i class="fa-solid fa-hand-lizard"></i></button>
-            <button game-type="spock" class="btn btn--big btn--purple"><i class="fa-solid fa-hand-spock"></i></button>
-        </div>
+  <div class="selection-board">
+    <div class="user-selection">
+      <button id="rock" class="btn btn--big btn--brown"><i class="fa-solid fa-hand-back-fist"></i></button>
+      <button id="paper" class="btn btn--big btn--white"><i class="fa-solid fa-hand"></i></button>
+      <button id="scissors" class="btn btn--big btn--silver"><i class="fa-solid fa-hand-scissors"></i></button>
+      <button id="lizard" class="btn btn--big btn--green"><i class="fa-solid fa-hand-lizard"></i></button>
+      <button id="spock" class="btn btn--big btn--purple"><i class="fa-solid fa-hand-spock"></i></button>
     </div>
-    <div>
-        <button data-type="submit" class="generate">SHOOT</button>
-    </div>
-
-    <div class="score-box">
-        <div>
-            <h3 class="scores">SCORE:<span id="player-score"> 0</span></h3>
-        </div>
-        <div>
-            <h3 class="turns">TRIES:<span id="tries"> 0</span></h3>
-        </div>
-    </div>
+  </div>
+  
+  <div>
+    <h3 class="scores">SCORE:<span id="player-score"> 0</span></h3>
+  </div>
+  <div>
+    <h3 class="turns">TRIES:<span id="tries"> 0</span></h3>
+  </div>
+  <div>
+    <h3 class="opponent">Opponent:<span id="opponent"> 0</span></h3>
+  </div>
 
     <script src="/assets/js/script.js"></script>
 

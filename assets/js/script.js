@@ -31,6 +31,7 @@ function playGame(userChoice) {
         } else if (opponent == 'lizard') {
             alert('WIN');
             scores++;
+        }
 
             turns++;
             document.getElementById("tries").textContent = turns;
@@ -53,5 +54,3 @@ function replayGame() {
     document.getElementById("tries").textContent = turns;
     document.getElementById("player-score").textContent = scores;
 }
-
-
