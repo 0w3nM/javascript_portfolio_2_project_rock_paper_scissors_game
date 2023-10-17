@@ -1,397 +1,409 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&family=Skranji:wght@700&family=Titillium+Web:wght@300&display=swap");
 
 html {
-  height: 100%;
-  width: 100%;
-  background-image: linear-gradient(black, slategray, maroon, slategray, black);
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(black, slategray, maroon, slategray, black);
 }
 
 /*--------------------Header */
 .header {
-  color: #ffffff;
-  text-align: center;
-  text-decoration: underline;
-  font-size: 6.5rem;
-  font-family: "Skranji", "sans-serif";
+    color: #ffffff;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 6.5rem;
+    font-family: "Skranji", "sans-serif";
 }
 
 /*--------------------Buttons */
 .btn--brown {
-  background-color: #a52a2a;
-  font-size: 3.2rem;
-  padding: 20px;
-  border: 5px solid #ffd700;
-  cursor: pointer;
-  border-radius: 10px;
-  height: 200px;
-  width: 200px;
-  margin: 10px;
+    background-color: #a52a2a;
+    font-size: 3.2rem;
+    padding: 20px;
+    border: 5px solid #ffd700;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
 }
 
 .btn--brown:active,
 .btn--brown:hover {
-  background-color: #b22222;
-  border: 8px solid #ffd700;
+    background-color: #b22222;
+    border: 8px solid #ffd700;
 }
 
 .btn--white {
-  background-color: #f8f8ff;
-  font-size: 3.2rem;
-  padding: 20px;
-  border: 5px solid #ffd700;
-  cursor: pointer;
-  border-radius: 10px;
-  height: 200px;
-  width: 200px;
-  margin: 10px;
+    background-color: #f8f8ff;
+    font-size: 3.2rem;
+    padding: 20px;
+    border: 5px solid #ffd700;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
 }
 
 .btn--white:active,
 .btn--white:hover {
-  background-color: #fdf5e6;
-  border: 8px solid #ffd700;
+    background-color: #fdf5e6;
+    border: 8px solid #ffd700;
 }
 
 .btn--silver {
-  background-color: #c0c0c0c0;
-  font-size: 3.2rem;
-  padding: 20px;
-  border: 5px solid #ffd700;
-  cursor: pointer;
-  border-radius: 10px;
-  height: 200px;
-  width: 200px;
-  margin: 10px;
+    background-color: #c0c0c0c0;
+    font-size: 3.2rem;
+    padding: 20px;
+    border: 5px solid #ffd700;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
 }
 
 .btn--silver:active,
 .btn--silver:hover {
-  background-color: #dcdcdc;
-  border: 8px solid #ffd700;
+    background-color: #dcdcdc;
+    border: 8px solid #ffd700;
 }
 
 .btn--green {
-  background-color: #00ff7f;
-  font-size: 3.2rem;
-  padding: 20px;
-  border: 5px solid #ffd700;
-  cursor: pointer;
-  border-radius: 10px;
-  height: 200px;
-  width: 200px;
-  margin: 10px;
+    background-color: #00ff7f;
+    font-size: 3.2rem;
+    padding: 20px;
+    border: 5px solid #ffd700;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
 }
 
 .btn--green:active,
 .btn--green:hover {
-  background-color: #adff2f;
-  border: 8px solid #ffd700;
+    background-color: #adff2f;
+    border: 8px solid #ffd700;
 }
 
 .btn--purple {
-  background-color: #800080;
-  font-size: 3.2rem;
-  padding: 20px;
-  border: 5px solid #ffd700;
-  cursor: pointer;
-  border-radius: 10px;
-  height: 200px;
-  width: 200px;
-  margin: 10px;
+    background-color: #800080;
+    font-size: 3.2rem;
+    padding: 20px;
+    border: 5px solid #ffd700;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
 }
 
 .btn--purple:active,
 .btn--purple:hover {
-  background-color: #7b68ee;
-  border: 8px solid #ffd700;
+    background-color: #7b68ee;
+    border: 8px solid #ffd700;
 }
 
 .selection-board {
-  position: relative;
-  box-sizing: border-box;
-  max-height: 642px;
-  max-width: 798px;
-  margin-left: 32%;
-  padding: 3%;
-  top: 41px;
+    position: relative;
+    box-sizing: border-box;
+    max-height: 642px;
+    max-width: 798px;
+    margin-left: 32%;
+    padding: 3%;
+    top: 41px;
 }
 
 .user-selection {
-  display: flex;
-  width: 30vw;
-  justify-content: space-evenly;
-  margin-top: 2rem;
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+    margin-top: 2rem;
 }
 
 /* -----------------Input */
 #name-card {
-  position: absolute;
-  right: 40%;
-  background-image: linear-gradient(to right, green, blue);
-  border: 5px solid gold;
-  padding-bottom: 8px;
-  padding-left: 18px;
-  padding-right: 25px;
-}
-
-#name {
-  font-size: 1.9rem;
-  color: oldlace;
-}
-
-#fname {
-  height: 15px;
-  padding: 3px;
-  font-size: 1.2rem;
-  font-family: "Skranji";
-  color: darkred;
-}
-
-#submit {
-  font-size: large;
-  height: 30px;
-  width: 76px;
-  background-color: peachpuff;
-}
-
-/* ----------------Scoring area */
-.score-box {
-  position: absolute;
-  float: left;
-  left: 44%;
-  text-align: center;
-  background-color: #b0c4de;
-  margin: 10px;
-  width: 13%;
-  border: 10px solid #ffd700;
-}
-
-.scores {
-  display: inline-block;
-  font-size: 35px;
-  font-family: "Titillium Web", "sans-serif";
-  position: absolute;
-  left: 31%;
-  top: 60%;
-  text-align: center;
-  background-color: #b0c4de;
-  margin: 10px;
-  width: 13%;
-  border: 10px solid #ffd700;
-}
-
-.turns {
-  display: inline-block;
-  font-size: 35px;
-  font-family: "Titillium Web", "sans-serif";
-  position: absolute;
-  top: 67%;
-  left: 43%;
-  text-align: center;
-  background-color: #b0c4de;
-  margin: 10px;
-  width: 13%;
-  border: 10px solid #ffd700;
-}
-
-.opponent {
-  display: inline-block;
-  font-size: 35px;
-  font-family: "Titillium Web", "sans-serif";
-  position: absolute;
-  top: 60%;
-  left: 55%;
-  text-align: center;
-  background-color: #b0c4de;
-  margin: 10px;
-  width: 13%;
-  border: 10px solid #ffd700;
-}
-
-#player-score {
-  color: green;
-}
-
-#tries {
-  color: blue;
-}
-
-#opponentChoice {
-  color: red;
-}
-
-/* -------------------Media Queries */
-@media screen and (max-width: 950px) {
-  #name-card {
     position: absolute;
-    right: 26%;
+    right: 40%;
     background-image: linear-gradient(to right, green, blue);
     border: 5px solid gold;
     padding-bottom: 8px;
     padding-left: 18px;
     padding-right: 25px;
-  }
+}
 
-  .scores {
+#name {
+    font-size: 1.9rem;
+    color: oldlace;
+}
+
+#fname {
+    height: 15px;
+    padding: 3px;
+    font-size: 1.2rem;
+    font-family: "Skranji";
+    color: darkred;
+}
+
+#submit {
+    font-size: large;
+    height: 30px;
+    width: 76px;
+    background-color: peachpuff;
+}
+
+/* ----------------Scoring area */
+.score-box {
+    position: absolute;
+    float: left;
+    left: 44%;
+    text-align: center;
+    background-color: #b0c4de;
+    margin: 10px;
+    width: 13%;
+    border: 10px solid #ffd700;
+}
+
+.scores {
     display: inline-block;
     font-size: 35px;
     font-family: "Titillium Web", "sans-serif";
-    position: absolute;
+    position: absolute;    
     left: 31%;
-    top: 74%;
+    top: 60%;
     text-align: center;
     background-color: #b0c4de;
     margin: 10px;
     width: 13%;
     border: 10px solid #ffd700;
-  }
+}
 
-  .turns {
+.turns {
     display: inline-block;
     font-size: 35px;
     font-family: "Titillium Web", "sans-serif";
-    position: absolute;
-    top: 85%;
-    left: 43%;
+    position: absolute;    
+    top: 77%;    
+    left: 43%;    
     text-align: center;
     background-color: #b0c4de;
     margin: 10px;
     width: 13%;
     border: 10px solid #ffd700;
-  }
-
-  .opponent {
-    display: inline-block;
-    font-size: 35px;
-    font-family: "Titillium Web", "sans-serif";
-    position: absolute;
-    top: 74%;
-    left: 55%;
-    text-align: center;
-    background-color: #b0c4de;
-    margin: 10px;
-    width: 20%;
-    border: 10px solid #ffd700;
-  }
 }
 
-@media screen and (max-width: 800px) {
-  .scores {
+.opponent {
     display: inline-block;
     font-size: 35px;
     font-family: "Titillium Web", "sans-serif";
     position: absolute;
-    left: 21%;
-    top: 74%;
+    top: 60%;
+    left: 55%;    
     text-align: center;
     background-color: #b0c4de;
     margin: 10px;
-    width: 20%;
+    width: 13%;
     border: 10px solid #ffd700;
-  }
-
-  .turns {
-    display: inline-block;
-    font-size: 35px;
-    font-family: "Titillium Web", "sans-serif";
-    position: absolute;
-    top: 85%;
-    left: 39%;
-    text-align: center;
-    background-color: #b0c4de;
-    margin: 10px;
-    width: 18%;
-    border: 10px solid #ffd700;
-  }
-
-  .opponent {
-    display: inline-block;
-    font-size: 35px;
-    font-family: "Titillium Web", "sans-serif";
-    position: absolute;
-    top: 74%;
-    left: 55%;
-    text-align: center;
-    background-color: #b0c4de;
-    margin: 10px;
-    width: 28%;
-    border: 10px solid #ffd700;
-  }
 }
 
-@media screen and (max-width: 480px) {
-  .header {
-    position: fixed;
-    color: #ffffff;
-    text-align: center;
-    text-decoration: underline;
-    font-size: 4.5rem;
-    font-family: "Skranji", "sans-serif";
-    right: 1px;
-  }
+#player-score {
+    color: green;
+}
 
-  #name-card {
-    position: fixed;
-    background-image: linear-gradient(to right, green, blue);
-    border: 5px solid gold;
-    padding-bottom: 8px;
-    padding-left: 37px;
-    padding-right: 9px;
-    margin-left: 20%;
-    top: 27%;
-    left: 27px;
-  }
+#tries {
+    color: blue;
+}
 
-  .selection-board {
-    position: relative;
-    box-sizing: border-box;
-    max-height: 642px;
-    left: 16%;
-    max-width: 437px;
-    margin-left: 27%;
-    padding: 2.6%;
-    top: 600px;
-  }
+#opponentChoice {
+    color: red;
+}
 
-  .scores {
-    display: inline-block;
-    font-size: 35px;
-    font-family: "Titillium Web", "sans-serif";
-    position: absolute;
-    left: 12%;
-    top: 74%;
-    text-align: center;
-    background-color: #b0c4de;
-    margin: 10px;
-    width: 34%;
-    border: 10px solid #ffd700;
-  }
+/* -------------------Media Queries */
+@media screen and (max-width:950px) {
+    #name-card {
+        position: absolute;
+        right: 26%;
+        background-image: linear-gradient(to right, green, blue);
+        border: 5px solid gold;
+        padding-bottom: 8px;
+        padding-left: 18px;
+        padding-right: 25px;
+    }
 
-  .turns {
-    display: inline-block;
-    font-size: 35px;
-    font-family: "Titillium Web", "sans-serif";
-    position: absolute;
-    top: 93%;
-    left: 39%;
-    text-align: center;
-    background-color: #b0c4de;
-    margin: 10px;
-    width: 30%;
-    border: 10px solid #ffd700;
-  }
+    .scores {
+        display: inline-block;
+        font-size: 49px;
+        font-family: "Titillium Web", "sans-serif";
+        position: absolute;
+        left: 8%;
+        top: 66%;
+        text-align: center;
+        background-color: #b0c4de;
+        margin: 30px;
+        width: 32%;
+        border: 10px solid #ffd700;
+    }
 
-  .opponent {
-    display: inline-block;
-    font-size: 35px;
-    font-family: "Titillium Web", "sans-serif";
-    position: absolute;
-    top: 74%;
-    left: 65%;
-    text-align: center;
-    background-color: #b0c4de;
-    margin: 10px;
-    width: 44%;
-    border: 10px solid #ffd700;
-  }
+    .turns {
+        display: inline-block;
+        font-size: 50px;
+        font-family: "Titillium Web", "sans-serif";
+        position: absolute;
+        top: 78%;
+        left: 34%;
+        text-align: center;
+        background-color: #b0c4de;
+        margin: 23px;
+        width: 28%;
+        border: 10px solid #ffd700;
+    }
+
+    .opponent {
+        display: inline-block;
+        font-size: 44px;
+        font-family: "Titillium Web", "sans-serif";
+        position: absolute;
+        top: 67%;
+        left: 55%;
+        text-align: center;
+        background-color: #b0c4de;
+        margin: 22px;
+        width: 34%;
+        border: 10px solid #ffd700;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .scores {
+        display: inline-block;
+        font-size: 39px;
+        font-family: "Titillium Web", "sans-serif";
+        position: absolute;
+        left: 5%;
+        top: 66%;
+        text-align: center;
+        background-color: #b0c4de;
+        margin: 40px;
+        width: 29%;
+        border: 10px solid #ffd700;
+    }
+
+    .turns {
+        display: inline-block;
+        font-size: 41px;
+        font-family: "Titillium Web", "sans-serif";
+        position: absolute;
+        top: 77%;
+        left: 32%;
+        text-align: center;
+        background-color: #b0c4de;
+        margin: 21px;
+        width: 27%;
+        border: 10px solid #ffd700;
+    }
+
+    .opponent {
+        display: inline-block;
+        font-size: 39px;
+        font-family: "Titillium Web", "sans-serif";
+        position: absolute;
+        top: 68%;
+        left: 55%;
+        text-align: center;
+        background-color: #b0c4de;
+        margin: 10px;
+        width: 34%;
+        border: 10px solid #ffd700;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .header {
+        position: fixed;
+        color: #ffffff;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 4.5rem;
+        font-family: "Skranji", "sans-serif";
+        right: 1px;
+    }
+
+    #name-card {
+        position: absolute;
+        background-image: linear-gradient(to right, green, blue);
+        border: 5px solid gold;
+        width: 70%;
+        padding-top: 15px;
+        padding-bottom: 29px;
+        padding-left: 9px;
+        padding-right: 9px;
+        margin-left: 11%;
+        top: 28%;
+        left: 30px;
+    }
+
+    #submit {
+        font-size: xx-large;
+        height: 44px;
+        width: 174px;
+        background-color: peachpuff;
+        margin-top: 17px;
+        position: relative;
+        left: 24%;
+    }
+
+    .selection-board {
+        position: relative;
+        box-sizing: border-box;
+        max-height: 642px;
+        left: 16%;
+        max-width: 437px;
+        margin-left: 27%;
+        padding: 2.6%;
+        top: 687px;
+    }
+
+    .scores {
+        display: inline-block;
+        font-size: 45px;
+        font-family: "Titillium Web", "sans-serif";
+        position: absolute;
+        left: 26%;
+        top: 66%;
+        text-align: center;
+        background-color: #b0c4de;
+        margin: 22px;
+        width: 46%;
+        border: 10px solid #ffd700;
+    }
+
+    .turns {
+        display: inline-block;
+        font-size: 41px;
+        font-family: "Titillium Web", "sans-serif";
+        position: absolute;
+        top: 88%;
+        left: 26%;
+        text-align: center;
+        background-color: #b0c4de;
+        margin: 36px;
+        width: 41%;
+        border: 10px solid #ffd700;
+    }
+
+    .opponent {
+        display: inline-block;
+        font-size: 42px;
+        font-family: "Titillium Web", "sans-serif";
+        position: absolute;
+        top: 78%;
+        left: 25%;
+        text-align: center;
+        background-color: #b0c4de;
+        margin: 11px;
+        width: 55%;
+        border: 10px solid #ffd700;
+    }
 }

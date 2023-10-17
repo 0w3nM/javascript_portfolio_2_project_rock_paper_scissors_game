@@ -88,7 +88,7 @@ function playGame(event) {
     }
   } else if (userChoice === "spock") {
     if (opponentChoice === "paper") {
-      alert("Opponent chose  paper YOU LOSE");
+      alert("Opponent chose paper YOU LOSE");
       opponent++;
     } else if (opponentChoice === "scissors") {
       alert("Opponent chose scissors YOU WIN");
