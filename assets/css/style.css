@@ -6,6 +6,52 @@ html {
     background-image: linear-gradient(black, slategray, maroon, slategray, black);
 }
 
+/*--------------------Rules */
+.top {
+    color: #B22222;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3.5rem;
+    font-family: "Skranji", "sans-serif";
+}
+
+.rules {
+    border:8px solid #ffd700;
+    background-color: #b0c4de;
+    color: #000000;
+    width: fit-content;
+    margin-left: 20.5%;
+    padding: 10px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Skranji", "sans-serif";
+}
+
+.select {
+    border: 8px solid #ffd700;
+    background-color: #b0c4de;
+    color: #000000;
+    width: fit-content;
+    margin-left: 20%;
+    padding: 10px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Skranji", "sans-serif";
+}
+
+.link {
+    border: 8px solid #ffd700;
+    background-color: #ffd700;
+    color: #B22222;
+    width: fit-content;
+    margin-left: 40%;
+    padding: 4px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2.5rem;
+    font-family: "Skranji", "sans-serif";
+}
+
 /*--------------------Header */
 .header {
     color: #ffffff;
