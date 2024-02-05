@@ -367,27 +367,21 @@ html {
 
 @media screen and (max-width:480px) {
     .header {
-        position: fixed;
         color: #ffffff;
         text-align: center;
         text-decoration: underline;
-        font-size: 4.5rem;
+        font-size: 3.5rem;
         font-family: "Skranji", "sans-serif";
-        right: 1px;
     }
 
     #name-card {
         position: absolute;
+        left: 29%;
         background-image: linear-gradient(to right, green, blue);
         border: 5px solid gold;
-        width: 70%;
-        padding-top: 15px;
-        padding-bottom: 29px;
-        padding-left: 9px;
-        padding-right: 9px;
-        margin-left: 11%;
-        top: 28%;
-        left: 30px;
+        padding-bottom: 8px;
+        padding-right: 48px;
+        width: 35%;
     }
 
     #submit {
@@ -404,52 +398,51 @@ html {
         position: relative;
         box-sizing: border-box;
         max-height: 642px;
-        left: 16%;
-        max-width: 437px;
-        margin-left: 27%;
-        padding: 2.6%;
-        top: 687px;
+        max-width: 798px;
+        margin-left: 32%;
+        padding: 3%;
+        top: 60px;
     }
 
     .scores {
         display: inline-block;
-        font-size: 45px;
+        font-size: 34px;
         font-family: "Titillium Web", "sans-serif";
         position: absolute;
-        left: 26%;
-        top: 66%;
+        left: 0%;
+        top: 75%;
         text-align: center;
         background-color: #b0c4de;
-        margin: 22px;
-        width: 46%;
+        margin: 40px;
+        width: 29%;
         border: 10px solid #ffd700;
     }
 
     .turns {
         display: inline-block;
-        font-size: 41px;
+        font-size: 34px;
         font-family: "Titillium Web", "sans-serif";
         position: absolute;
-        top: 88%;
-        left: 26%;
+        top: 90%;
+        left: 32%;
         text-align: center;
         background-color: #b0c4de;
-        margin: 36px;
-        width: 41%;
+        margin: 21px;
+        width: 27%;
         border: 10px solid #ffd700;
     }
 
     .opponent {
         display: inline-block;
-        font-size: 42px;
+        font-size: 34px;
         font-family: "Titillium Web", "sans-serif";
         position: absolute;
-        top: 78%;
-        left: 25%;
+        top: 79%;
+        left: 51%;
         text-align: center;
         background-color: #b0c4de;
-        margin: 11px;
-        width: 55%;
+        margin: 10px;
+        width: 44%;
         border: 10px solid #ffd700;
     }
 }
