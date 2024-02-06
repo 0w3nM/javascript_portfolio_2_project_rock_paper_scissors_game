@@ -173,7 +173,7 @@ html {
 #name-card {
     position: absolute;
     right: 40%;
-    background-image: linear-gradient(to right, green, blue);
+    background-image: linear-gradient(to right, gray, slategray);
     border: 5px solid gold;
     padding-bottom: 8px;
     padding-left: 18px;
