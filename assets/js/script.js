@@ -4,6 +4,15 @@ let opponent = 0;
 let turns = 0;
 const choices = ["rock", "paper", "scissors", "lizard", "spock"];
 
+/*  Authentication */
+function validateForm() {
+    let x = document.forms["name-card"]["fname"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
+
 /* Event Listener */
 document.getElementById("rock").addEventListener("click", playGame);
 document.getElementById("paper").addEventListener("click", playGame);

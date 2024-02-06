@@ -365,7 +365,7 @@ html {
     }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:540px) {
     .header {
         color: #ffffff;
         text-align: center;

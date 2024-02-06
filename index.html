@@ -32,7 +32,7 @@
         <br>
         <div class="select">
             <p><u>Winning and Losing choices:</u></p>           
-            <p>- <span style = "color: brown" > Rock </span> beats <span style="color: blue"> Scissors </span> and <span style="color: green"> Lizard</span></p>          
+            <p>- <span style="color: brown" > Rock </span> beats <span style="color: blue"> Scissors </span> and <span style="color: green"> Lizard</span></p>          
             <p>- <span style="color: White"> Paper</span> beats <span style="color: brown"> Rock </span> and <span style="color: purple"> Spock </span></p>           
             <p>- <span style="color: blue"> Scissors </span> beats <span style="color: White"> Paper</span> and <span style="color: green"> Lizard</span></p>            
             <p>- <span style="color: purple"> Spock </span> beats <span style="color: brown"> Rock </span> and <span style="color: blue"> Scissors </span></p>            
@@ -44,8 +44,12 @@
         </div>
         <br>
         <div class="link">
-            <a href="game.html">
-                <h1 id="game"> Play Game</h1>
+            <a href="game.html">                
+                <form id="name-card" onsubmit="return validateForm()">
+                    <label for="fname" id="name">Name: </label>
+                    <input name="fname" id="fname" type="text" required>
+                    <input type="submit" value="Play Game">
+                </form>
             </a>
         </div>        
     </section>
