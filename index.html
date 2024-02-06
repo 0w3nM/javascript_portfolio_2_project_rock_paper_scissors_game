@@ -44,7 +44,7 @@
         </div>
         <br>
         <div class="link">                            
-                <form a href="game.html" id="name-card" onsubmit="return validateForm()">
+                <form id="name-card" onsubmit="validateForm(event)">
                     <label for="fname" id="name">Name: </label>
                     <input name="fname" id="fname" type="text" required>
                     <input type="submit" value="Play Game">
@@ -52,6 +52,6 @@
             </a>
         </div>        
     </section>
-
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
