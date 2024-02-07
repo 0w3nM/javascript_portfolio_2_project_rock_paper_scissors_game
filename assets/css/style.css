@@ -267,7 +267,7 @@ html {
 }
 
 /* -------------------Media Queries */
-@media screen and (max-width:950px) {
+@media screen and (min-width:922px) {
     #name-card {
         position: absolute;
         right: 26%;
@@ -321,7 +321,7 @@ html {
     }
 }
 
-@media screen and (max-width:800px) {
+@media screen and (min-width:768px) {
     .scores {
         display: inline-block;
         font-size: 39px;
@@ -365,7 +365,7 @@ html {
     }
 }
 
-@media screen and (max-width:540px) {
+@media screen and (max-width:548px) {
     .header {
         color: #ffffff;
         text-align: center;
@@ -374,24 +374,68 @@ html {
         font-family: "Skranji", "sans-serif";
     }
 
+    .rules {
+        border: 8px solid #ffd700;
+        background-color: #b0c4de;
+        color: #000000;
+        width: fit-content;
+        margin-left: 0%;
+        padding: 10px;
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: "Skranji", "sans-serif"; 
+    }
+
+    .select {
+        border: 8px solid #ffd700;
+        background-color: #b0c4de;
+        color: #000000;
+        width: fit-content;
+        margin-left: 0%;
+        padding: 10px;
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: "Skranji", "sans-serif";
+    }
+
     #name-card {
         position: absolute;
         left: 29%;
-        background-image: linear-gradient(to right, green, blue);
+        background-image: linear-gradient(to right, silver, gray, slategray);
         border: 5px solid gold;
         padding-bottom: 8px;
         padding-right: 48px;
-        width: 35%;
+        width: 35%
+    }
+
+    #name{
+        font-size: 1.9rem;
+        color: black;
+        font-family: "Skranji", "sans-serif";
     }
 
     #submit {
         font-size: xx-large;
         height: 44px;
-        width: 174px;
+        width: 173px;
         background-color: peachpuff;
         margin-top: 17px;
         position: relative;
-        left: 24%;
+        left: 13%;
+    }
+
+    #rules{
+        border: 8px solid #ffd700;
+        background-color: #b0c4de;
+        color: #000000;
+        width: fit-content;
+        margin-left: 0%;
+        padding: 10px;
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: "Skranji", "sans-serif";
+        position: absolute;
+        right: 35%;
     }
 
     .selection-board {
@@ -399,7 +443,7 @@ html {
         box-sizing: border-box;
         max-height: 642px;
         max-width: 798px;
-        margin-left: 32%;
+        margin-left: 35%;
         padding: 3%;
         top: 60px;
     }
