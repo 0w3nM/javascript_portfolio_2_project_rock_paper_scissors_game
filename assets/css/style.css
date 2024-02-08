@@ -260,7 +260,7 @@ html {
 @media screen and (max-width:922px) {
     .rules{
         border: 8px solid #ffd700;
-        background-color: #696969;
+        background-color: #808080;
         color: #000000;
         width: fit-content;
         margin-left: 0%;
@@ -272,7 +272,7 @@ html {
 
     .select{
         border: 8px solid #ffd700;
-        background-color: #696969;
+        background-color: #808080;
         color: #000000;
         width: fit-content;
         margin-left: 0%;
@@ -359,7 +359,7 @@ html {
 @media screen and (max-width:768px) {
     .rules {
         border: 8px solid #ffd700;
-        background-color: #696969;
+        background-color: #808080;
         color: #000000;
         width: fit-content;
         margin-left: 0%;
@@ -371,7 +371,7 @@ html {
 
     .select {
         border: 8px solid #ffd700;
-        background-color: #696969;
+        background-color: #808080;
         color: #000000;
         width: fit-content;
         margin-left: 0%;
@@ -510,7 +510,7 @@ html {
 
     .select {
         border: 8px solid #ffd700;
-        background-color: #696969;
+        background-color: #808080;
         color: #000000;
         width: fit-content;
         margin-left: 0%;
