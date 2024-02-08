@@ -17,10 +17,10 @@ html {
 
 .rules {
     border:8px solid #ffd700;
-    background-color: #b0c4de;
+    background-color: #696969;
     color: #000000;
     width: fit-content;
-    margin-left: 20.5%;
+    margin-left: 15%;
     padding: 10px;
     text-align: center;
     font-size: 2.5rem;
@@ -29,27 +29,46 @@ html {
 
 .select {
     border: 8px solid #ffd700;
-    background-color: #b0c4de;
+    background-color: #696969;
     color: #000000;
     width: fit-content;
-    margin-left: 20%;
-    padding: 10px;
+    margin-left: 14%;
+    padding-right: 25px;
     text-align: center;
     font-size: 2.5rem;
     font-family: "Skranji", "sans-serif";
 }
 
-.link {
-    border: 8px solid #ffd700;
-    background-color: #ffd700;
-    color: #B22222;
-    width: fit-content;
-    margin-left: 40%;
-    padding: 4px;
-    text-align: center;
-    text-decoration: underline;
-    font-size: 2.5rem;
-    font-family: "Skranji", "sans-serif";
+/* -----------------Input */
+#name-card {
+    position: absolute;
+    right: 38%;
+    background-image: linear-gradient(to right, gray, slategray);
+    border: 5px solid gold;
+    padding-bottom: 8px;
+    padding-left: 18px;
+    padding-right: 25px;
+}
+
+#name {
+    font-size: 1.9rem;
+    color: black;
+    font-family:"Skranji", "sans-serif";
+}
+
+#fname {
+    height: 15px;
+    padding: 3px;
+    font-size: 1.2rem;
+    font-family: "Skranji";
+    color: darkred;
+}
+
+#submit {
+    font-size: large;
+    height: 30px;
+    width: 103px;
+    background-color: peachpuff;
 }
 
 /*--------------------Header */
@@ -59,6 +78,19 @@ html {
     text-decoration: underline;
     font-size: 6.5rem;
     font-family: "Skranji", "sans-serif";
+}
+
+/*-------------------Link */
+.link {
+    border: 8px solid #ffd700;
+    background-color: #b0c4de;
+    color: #B22222;
+    width: 120px;
+    margin-left: 45%;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2.5rem;
+    font-family: "Skranji", "sans-serif"
 }
 
 /*--------------------Buttons */
@@ -98,8 +130,8 @@ html {
     border: 8px solid #ffd700;
 }
 
-.btn--silver {
-    background-color: #c0c0c0c0;
+.btn--blue {
+    background-color: #1E90FF;
     font-size: 3.2rem;
     padding: 20px;
     border: 5px solid #ffd700;
@@ -110,9 +142,9 @@ html {
     margin: 10px;
 }
 
-.btn--silver:active,
-.btn--silver:hover {
-    background-color: #dcdcdc;
+.btn--blue:active,
+.btn--blue:hover {
+    background-color: #1E90FF;
     border: 8px solid #ffd700;
 }
 
@@ -169,37 +201,6 @@ html {
     margin-top: 2rem;
 }
 
-/* -----------------Input */
-#name-card {
-    position: absolute;
-    right: 40%;
-    background-image: linear-gradient(to right, gray, slategray);
-    border: 5px solid gold;
-    padding-bottom: 8px;
-    padding-left: 18px;
-    padding-right: 25px;
-}
-
-#name {
-    font-size: 1.9rem;
-    color: oldlace;
-}
-
-#fname {
-    height: 15px;
-    padding: 3px;
-    font-size: 1.2rem;
-    font-family: "Skranji";
-    color: darkred;
-}
-
-#submit {
-    font-size: large;
-    height: 30px;
-    width: 76px;
-    background-color: peachpuff;
-}
-
 /* ----------------Scoring area */
 .score-box {
     position: absolute;
@@ -216,13 +217,13 @@ html {
     display: inline-block;
     font-size: 35px;
     font-family: "Titillium Web", "sans-serif";
-    position: absolute;    
-    left: 31%;
-    top: 60%;
+    position: absolute;
+    left: 22%;
+    top: 78%;
     text-align: center;
     background-color: #b0c4de;
     margin: 10px;
-    width: 13%;
+    width: 11%;
     border: 10px solid #ffd700;
 }
 
@@ -230,9 +231,9 @@ html {
     display: inline-block;
     font-size: 35px;
     font-family: "Titillium Web", "sans-serif";
-    position: absolute;    
-    top: 77%;    
-    left: 43%;    
+    position: absolute;
+    top: 86%;
+    left: 43%;
     text-align: center;
     background-color: #b0c4de;
     margin: 10px;
@@ -245,8 +246,8 @@ html {
     font-size: 35px;
     font-family: "Titillium Web", "sans-serif";
     position: absolute;
-    top: 60%;
-    left: 55%;    
+    top: 78%;
+    left: 63%;
     text-align: center;
     background-color: #b0c4de;
     margin: 10px;
@@ -267,67 +268,112 @@ html {
 }
 
 /* -------------------Media Queries */
-@media screen and (min-width:922px) {
+@media screen and (max-width:922px) {
+    .rules{
+        border: 8px solid #ffd700;
+        background-color: #696969;
+        color: #000000;
+        width: fit-content;
+        margin-left: 0%;
+        padding-left: 9px;
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: "Skranji", "sans-serif";
+    }
+
+    .select{
+        border: 8px solid #ffd700;
+        background-color: #696969;
+        color: #000000;
+        width: fit-content;
+        margin-left: 0%;
+        padding-right: 10px;
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: "Skranji", "sans-serif";
+    }
+    
     #name-card {
         position: absolute;
-        right: 26%;
-        background-image: linear-gradient(to right, green, blue);
+        left: 24%;
+        background-image: linear-gradient(to right, silver, gray, slategray);
         border: 5px solid gold;
         padding-bottom: 8px;
-        padding-left: 18px;
-        padding-right: 25px;
+        padding-right: 0px;
+        width: 52%;
+    }
+
+    .header{
+        color: #ffffff;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 3.5rem;
+        font-family: "Skranji", "sans-serif";
+    }
+
+    .link {
+        border: 8px solid #ffd700;
+        background-color: #b0c4de;
+        color: #B22222;
+        width: fit-content;
+        margin-left: 40%;
+        padding: 4px;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 2.5rem;
+        font-family: "Skranji", "sans-serif";
     }
 
     .scores {
         display: inline-block;
-        font-size: 49px;
+        font-size: 39px;
         font-family: "Titillium Web", "sans-serif";
         position: absolute;
-        left: 8%;
-        top: 66%;
+        left: -4%;
+        top: 72%;
         text-align: center;
         background-color: #b0c4de;
-        margin: 30px;
-        width: 32%;
+        margin: 40px;
+        width: 29%;
         border: 10px solid #ffd700;
     }
 
     .turns {
         display: inline-block;
-        font-size: 50px;
+        font-size: 41px;
         font-family: "Titillium Web", "sans-serif";
         position: absolute;
-        top: 78%;
-        left: 34%;
+        top: 85%;
+        left: 30%;
         text-align: center;
         background-color: #b0c4de;
-        margin: 23px;
-        width: 28%;
+        margin: 21px;
+        width: 27%;
         border: 10px solid #ffd700;
     }
 
     .opponent {
         display: inline-block;
-        font-size: 44px;
+        font-size: 39px;
         font-family: "Titillium Web", "sans-serif";
         position: absolute;
-        top: 67%;
-        left: 55%;
+        top: 76%;
+        left: 62%;
         text-align: center;
         background-color: #b0c4de;
-        margin: 22px;
+        margin: 10px;
         width: 34%;
         border: 10px solid #ffd700;
     }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (max-width:768px) {
     .rules {
         border: 8px solid #ffd700;
-        background-color: gray;
+        background-color: #696969;
         color: #000000;
-        width: 50%;
-        margin-left: 24%;
+        width: fit-content;
+        margin-left: 0%;
         padding: 10px;
         text-align: center;
         font-size: 2.5rem;
@@ -336,34 +382,24 @@ html {
 
     .select {
         border: 8px solid #ffd700;
-        background-color: #b0c4de;
+        background-color: #696969;
         color: #000000;
         width: fit-content;
-        margin-left: 15%;
+        margin-left: 0%;
         padding-right: 20px;
         text-align: center;
         font-size: 2.5rem;
         font-family: "Skranji", "sans-serif";
-    }
-
-    .selection-board{
-        position: relative;
-        box-sizing: border-box;
-        max-height: 642px;
-        max-width: 798px;
-        margin-left: 32%;
-        padding: 3%;
-        top: 0px;
-    }
+    } 
 
     #name-card {
         position: absolute;
-        left: 36%;
+        left: 17%;
         background-image: linear-gradient(to right, silver, gray, slategray);
         border: 5px solid gold;
         padding-bottom: 8px;
         padding-right: 0px;
-        width: 25%
+        width: 62%
     }
 
     #name{
@@ -393,6 +429,37 @@ html {
         position: relative;
         left: 25%;
         top: 6px;
+    }
+
+    .header {
+        color: #ffffff;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 3.5rem;
+        font-family: "Skranji", "sans-serif";
+    }   
+    
+    .link {
+        border: 8px solid #ffd700;
+        background-color: #b0c4de;
+        color: #B22222;
+        width: fit-content;
+        margin-left: 40%;
+        padding: 4px;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 2.5rem;
+        font-family: "Skranji", "sans-serif";
+    }
+
+    .selection-board{
+        position: relative;
+        box-sizing: border-box;
+        max-height: 642px;
+        max-width: 798px;
+        margin-left: 32%;
+        padding: 3%;
+        top: 0px;
     }      
     
     .scores {
@@ -400,7 +467,7 @@ html {
         font-size: 39px;
         font-family: "Titillium Web", "sans-serif";
         position: absolute;
-        left: 0%;
+        left: -4%;
         top: 72%;
         text-align: center;
         background-color: #b0c4de;
@@ -414,8 +481,8 @@ html {
         font-size: 41px;
         font-family: "Titillium Web", "sans-serif";
         position: absolute;
-        top: 85%;
-        left: 32%;
+        top: 86%;
+        left: 30%;
         text-align: center;
         background-color: #b0c4de;
         margin: 21px;
@@ -429,7 +496,7 @@ html {
         font-family: "Titillium Web", "sans-serif";
         position: absolute;
         top: 76%;
-        left: 63%;
+        left: 61%;
         text-align: center;
         background-color: #b0c4de;
         margin: 10px;
@@ -445,11 +512,11 @@ html {
         text-decoration: underline;
         font-size: 3.5rem;
         font-family: "Skranji", "sans-serif";
-    }
+    }    
 
     .rules {
         border: 8px solid #ffd700;
-        background-color: #b0c4de;
+        background-color: #696969;
         color: #000000;
         width: fit-content;
         margin-left: 0%;
@@ -461,7 +528,7 @@ html {
 
     .select {
         border: 8px solid #ffd700;
-        background-color: #b0c4de;
+        background-color: #696969;
         color: #000000;
         width: fit-content;
         margin-left: 0%;
@@ -473,12 +540,12 @@ html {
 
     #name-card {
         position: absolute;
-        left: 29%;
+        left: 18%;
         background-image: linear-gradient(to right, silver, gray, slategray);
         border: 5px solid gold;
         padding-bottom: 8px;
         padding-right: 48px;
-        width: 35%
+        width: 52%
     }
 
     #name{
@@ -496,19 +563,18 @@ html {
         position: relative;
         left: 13%;
     }
-
-    #rules{
+    
+    .link {
         border: 8px solid #ffd700;
         background-color: #b0c4de;
-        color: #000000;
+        color: #B22222;
         width: fit-content;
-        margin-left: 40%;
-        padding: 10px;
+        margin-left: 41%;
+        padding: 5px;
         text-align: center;
-        font-size: 2.5rem;
+        text-decoration: underline;
+        font-size: 2rem;
         font-family: "Skranji", "sans-serif";
-        position: absolute;
-        right: 35%;
     }
 
     .selection-board {

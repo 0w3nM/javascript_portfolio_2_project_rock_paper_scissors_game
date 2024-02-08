@@ -11,23 +11,29 @@ function validateForm(event) {
     if (fname === "") {
         alert("Please enter your name to play.");
         return false;
+    } else if (!/^[a-zA-Z]+$/.test(fname)) {
+        alert("Invalid Characters !");
+        return false;
     } else {
         window.location.href = "game.html";
     }
-    }
-    // document.getElementById("rock").addEventListener("click", playGame);
-    //   scores++;
+    } 
+
+
 /* Event Listener */
 document.getElementById("rock").addEventListener("click", playGame);
 document.getElementById("paper").addEventListener("click", playGame);
 document.getElementById("scissors").addEventListener("click", playGame);
 document.getElementById("lizard").addEventListener("click", playGame);
 document.getElementById("spock").addEventListener("click", playGame);
+document.getElementById("validateForm").addEventListener("Play Game", validateForm);
+
 /* Randomiser function */
 function randomChoice() {
   const randomIndex = Math.floor(Math.random() * choices.length);
   return choices[randomIndex];
 }
+
 /* Game function */
 function playGame(event) {
   let userChoice = event.target.id;
@@ -39,6 +45,8 @@ function playGame(event) {
   }
   if (userChoice === opponentChoice) {
     alert("DRAW");
+    opponent++;
+    scores++;
   } else if (userChoice === "rock") {
     if (opponentChoice === "paper") {
       alert("Opponent chose paper YOU LOSE");
@@ -125,6 +133,7 @@ function playGame(event) {
     replayGame();
   }
 }
+
 /* Game replay */
 function replayGame() {
   scores = 0;
