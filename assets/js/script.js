@@ -26,7 +26,7 @@ document.getElementById("paper").addEventListener("click", playGame);
 document.getElementById("scissors").addEventListener("click", playGame);
 document.getElementById("lizard").addEventListener("click", playGame);
 document.getElementById("spock").addEventListener("click", playGame);
-document.getElementById("validateForm").addEventListener("Play Game", validateForm);
+document.getElementById("validateForm").addEventListener("click", validateForm);
 
 /* Randomiser function */
 function randomChoice() {

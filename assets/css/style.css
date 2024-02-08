@@ -73,7 +73,7 @@ html {
 
 /*--------------------Header */
 .header {
-    color: #ffffff;
+    color: #B22222;
     text-align: center;
     text-decoration: underline;
     font-size: 6.5rem;
@@ -83,7 +83,7 @@ html {
 /*-------------------Link */
 .link {
     border: 8px solid #ffd700;
-    background-color: #b0c4de;
+    background-color: #808080;
     color: #B22222;
     width: 120px;
     margin-left: 45%;
@@ -202,17 +202,6 @@ html {
 }
 
 /* ----------------Scoring area */
-.score-box {
-    position: absolute;
-    float: left;
-    left: 44%;
-    text-align: center;
-    background-color: #b0c4de;
-    margin: 10px;
-    width: 13%;
-    border: 10px solid #ffd700;
-}
-
 .scores {
     display: inline-block;
     font-size: 35px;
@@ -221,7 +210,7 @@ html {
     left: 22%;
     top: 78%;
     text-align: center;
-    background-color: #b0c4de;
+    background-color: #696969;
     margin: 10px;
     width: 11%;
     border: 10px solid #ffd700;
@@ -235,7 +224,7 @@ html {
     top: 86%;
     left: 43%;
     text-align: center;
-    background-color: #b0c4de;
+    background-color: #696969;
     margin: 10px;
     width: 13%;
     border: 10px solid #ffd700;
@@ -249,18 +238,18 @@ html {
     top: 78%;
     left: 63%;
     text-align: center;
-    background-color: #b0c4de;
+    background-color: #696969;
     margin: 10px;
     width: 13%;
     border: 10px solid #ffd700;
 }
 
 #player-score {
-    color: green;
+    color: #7cfc00;
 }
 
 #tries {
-    color: blue;
+    color: #00bfff;
 }
 
 #opponentChoice {
