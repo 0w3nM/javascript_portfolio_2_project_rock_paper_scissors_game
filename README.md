@@ -88,4 +88,4 @@ This game is targeted at all age groups that simply wish to pass the time with t
   (https://www.w3schools.com/css/css3_gradients.asp/)
 - For button positioning was looked at on [Geeksforgeeks](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/)
 - Form Validation was used from [CodeInstitute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+HE101+2020/courseware/fcc67a894619420399970ae84fc4802f/05a72bc3e032457d8a3d108d33656c72/?child=last/), (https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+HE101+2020/courseware/fcc67a894619420399970ae84fc4802f/05a72bc3e032457d8a3d108d33656c72/?child=last/)
-- Favicon was made [Favicon](https://www.favicon.cc/)
+- Favicon was made through the[Favicon](https://www.favicon.cc/) website.
