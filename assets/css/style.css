@@ -322,13 +322,86 @@ html {
 }
 
 @media screen and (min-width:768px) {
+    .rules {
+        border: 8px solid #ffd700;
+        background-color: gray;
+        color: #000000;
+        width: 50%;
+        margin-left: 24%;
+        padding: 10px;
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: "Skranji", "sans-serif";
+    }
+
+    .select {
+        border: 8px solid #ffd700;
+        background-color: #b0c4de;
+        color: #000000;
+        width: fit-content;
+        margin-left: 15%;
+        padding-right: 20px;
+        text-align: center;
+        font-size: 2.5rem;
+        font-family: "Skranji", "sans-serif";
+    }
+
+    .selection-board{
+        position: relative;
+        box-sizing: border-box;
+        max-height: 642px;
+        max-width: 798px;
+        margin-left: 32%;
+        padding: 3%;
+        top: 0px;
+    }
+
+    #name-card {
+        position: absolute;
+        left: 36%;
+        background-image: linear-gradient(to right, silver, gray, slategray);
+        border: 5px solid gold;
+        padding-bottom: 8px;
+        padding-right: 0px;
+        width: 25%
+    }
+
+    #name{
+        font-size: 1.9rem;
+        position: absolute;
+        top: 0px;
+        color: black;
+        font-family: "Skranji", "sans-serif"
+    }
+
+    #fname{
+        height: 15px;
+        padding: 3px;
+        position: relative;
+        left: 102px;
+        top: 8px;
+        font-size: 1.2rem;
+        font-family: "Skranji", sans-serif;
+    }
+
+    #submit {
+        font-size: large;
+        height: 35px;
+        width: 120px;
+        background-color: peachpuff;
+        margin-top: -29px;
+        position: relative;
+        left: 25%;
+        top: 6px;
+    }      
+    
     .scores {
         display: inline-block;
         font-size: 39px;
         font-family: "Titillium Web", "sans-serif";
         position: absolute;
-        left: 5%;
-        top: 66%;
+        left: 0%;
+        top: 72%;
         text-align: center;
         background-color: #b0c4de;
         margin: 40px;
@@ -341,13 +414,13 @@ html {
         font-size: 41px;
         font-family: "Titillium Web", "sans-serif";
         position: absolute;
-        top: 77%;
+        top: 85%;
         left: 32%;
         text-align: center;
         background-color: #b0c4de;
         margin: 21px;
         width: 27%;
-        border: 10px solid #ffd700;
+        border: 10px solid #ffd700
     }
 
     .opponent {
@@ -355,8 +428,8 @@ html {
         font-size: 39px;
         font-family: "Titillium Web", "sans-serif";
         position: absolute;
-        top: 68%;
-        left: 55%;
+        top: 76%;
+        left: 63%;
         text-align: center;
         background-color: #b0c4de;
         margin: 10px;
@@ -429,7 +502,7 @@ html {
         background-color: #b0c4de;
         color: #000000;
         width: fit-content;
-        margin-left: 0%;
+        margin-left: 40%;
         padding: 10px;
         text-align: center;
         font-size: 2.5rem;
