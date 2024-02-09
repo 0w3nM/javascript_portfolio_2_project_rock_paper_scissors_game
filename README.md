@@ -7,9 +7,9 @@ This game is targeted at all age groups that simply wish to pass the time with t
 
 - There are 2 pages to this project:
 
- ...The first page has to text boxes that show the rules and combinations that can be used in the game aswell as a input box to be used by the user to access the game. The input box is specidied to letters only and MUST be filled.
+ The first page has to text boxes that show the rules and combinations that can be used in the game aswell as a input box to be used by the user to access the game. The input box is specidied to letters only and MUST be filled.
 
- ...The second page houses the game, where the user can choose any selection to try and beat the computer. There are also score boxes to show user and opponent score as well as number of tries.
+ The second page houses the game, where the user can choose any selection to try and beat the computer. There are also score boxes to show user and opponent score as well as number of tries.
 
 ### Rules Page
 
@@ -57,7 +57,7 @@ This game is targeted at all age groups that simply wish to pass the time with t
 
 * The choice buttons are aranged in a line for aesthetically pleasing look, and are spaced evenly. They have a background color that that are matched with the list on the rules page, and an image from font awesome depicting the choice for users.
 
-![Button Options To Choose](assets/imagesbutton_selection.png)
+![Button Options To Choose](assets/images/button_selection.png)
   
 * For thghe results each box has it numerical value in differnet colors for aethestics reason along with identifying them to their indivdual positions.
   
@@ -71,7 +71,7 @@ This game is targeted at all age groups that simply wish to pass the time with t
 
 * There are also alerts to inform the user of the results of their picks.
 
-This alert is when the users pick beats the opponents.
+* This alert is when the users pick beats the opponents.
 
 ![User Win](assets/images/win_alert.png)
 
@@ -79,17 +79,17 @@ This alert is for when both user and oopenet pick the same option.
 
 ![User draw](assets/images/draw_alert.png)
 
-This alert is when the users pick loses to the opponent.
+-This alert is when the users pick loses to the opponent.
 
 ![User Loss](assets/images/loss_alert.png)
 
 * Another 2 alerts show when the game is over and who is the winner or loser.
 
-This is a win.
+- This is a win.
 
 ![Match Win](assets/images/game_win_alert.png)
 
-This is a loss
+* This is a loss
 
 ![Match Loss](assets/images/game_loss_alert.png)
 
@@ -104,7 +104,7 @@ This is a loss
 
 - [replit.com](https://replit.com/) was used as a model to desgin and build before working on [Codeanywhere](https://app.codeanywhere.com/).
 
-- Dev tools was used for css and for JavaScript functionality.
+- Dev tools was used for CSS and for JavaScript functionality and appearance.
 
 - Tested on lighthouse through Dev Tools.
 
@@ -113,16 +113,20 @@ This is a loss
 ## Validator Testing-
 
 - Html - [W3C validator](https://validator.we.org/)
+  
   ![Html validator result](assets/images/html_validation.png)
 
 - JShint - [JShint validator](https://jshint.com/)
-  ![JShint result](assets/images/jshint_validation.png)
+  
+  ![JShint result](assets/images/js_validation.png)
 
 - CSS - [W3C validator](https://jigsaw.w3.org/css-validator/)
-    ![css result](assets/images/css_validation.png)
+  
+![css result](assets/images/css_validation.png)
 
 ## Deployment-
 
+- 
 - The game was deployed to GitHub pages.
 - Live link to the page can be found here -https://0w3nm.github.io/javascript_portfolio_2_project_rock_paper_scissors_game/
   
