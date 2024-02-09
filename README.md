@@ -106,7 +106,7 @@ This game is targeted at all age groups that simply wish to pass the time with t
 
 - Dev tools was used for CSS and for JavaScript functionality and appearance.
 
-- Tested on lighthouse through Dev Tools.
+- Tested on lighthouse through Dev Tools. The results were not what i was hoping and with more time i hoped to find a way around to boost the performance number to the 90's, however the game still runs fully.
 
 - ![lighthouse result](assets/images/lighthouse_validation.png)
 
