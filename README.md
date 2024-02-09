@@ -15,7 +15,7 @@ This game is targeted at all age groups that simply wish to pass the time with t
 
 - Header:
 
-..*The header has Skranji font and also a font color being red to make it stand out along.
+* The header has Skranji font and also a font color being red to make it stand out along.
 
 ![Header](assets/images/rules_header.png)
 
@@ -41,7 +41,7 @@ This game is targeted at all age groups that simply wish to pass the time with t
   
 ![Empty Input Field](assets/images/empty_input_error.png)
 
-*Input field content MUST be letters only to be accepted.  
+* Input field content MUST be letters only to be accepted.  
   
 ![Invalid Input](assets/images/invalid_input.png)
 
@@ -72,17 +72,24 @@ This game is targeted at all age groups that simply wish to pass the time with t
 * There are also alerts to inform the user of the results of their picks.
 
 This alert is when the users pick beats the opponents.
+
 ![User Win](assets/images/win_alert.png)
 
 This alert is for when both user and oopenet pick the same option.
+
 ![User draw](assets/images/draw_alert.png)
 
 This alert is when the users pick loses to the opponent.
+
 ![User Loss](assets/images/loss_alert.png)
 
 * Another 2 alerts show when the game is over and who is the winner or loser.
 
+This is a win.
+
 ![Match Win](assets/images/game_win_alert.png)
+
+This is a loss
 
 ![Match Loss](assets/images/game_loss_alert.png)
 
