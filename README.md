@@ -15,7 +15,7 @@ This game is targeted at all age groups that simply wish to pass the time with t
 
 - Header:
 
-- The header has Skranji font and also a font color being red to make it stand out along.
+- The header has Skranji font and also a font color being red to make it stand out.
 
 ![Header](assets/images/rules_header.png)
 
@@ -47,21 +47,21 @@ This game is targeted at all age groups that simply wish to pass the time with t
 
 ### Game Page
 
-- The heading is a font of Oswald in a red color to stand out against the fret background.
+- The heading is a font of Oswald in a red color to stand out against the grey background and matching with the previous heder.
 
 ![Game Heading](assets/images/game_title.png)
 
-- There is a link back to the rules page incase the user is need to remember the rules.
+- There is a link back to the rules page incase the user is in need to remember the rules.
 
 ![Link](assets/images/link_to_rules.png)
 
-- The choice buttons are aranged in a line for aesthetically pleasing look, and are spaced evenly. They have a background color that that are matched with the list on the rules page, and an image from font awesome depicting the choice for users.
+- The choice buttons are arranged in a line for an aesthetically pleasing look, and are spaced evenly. They have a background color that are matched with the list on the rules page, and an image from font awesome depicting the choice for users.
 
 ![Button Options To Choose](assets/images/button_selection.png)
   
-- For thghe results each box has it numerical value in differnet colors for aethestics reason along with identifying them to their indivdual positions.
+- For the results each box has its numerical value in differnet colors for aethestics reason along with identifying them to their indivdual positions.
   
-- The boxes are aligned in a downward facing triangle to keep the them seperate and for aesthetic reasons.
+- The boxes are aligned in a downward facing triangle to keep the them seperate and is also for aesthetic reasons.
 
 ![User Score](assets/images/user_score.png)
 
@@ -135,7 +135,7 @@ This game is targeted at all age groups that simply wish to pass the time with t
 - Then click **Save**
 - **Refresh** the page.
 
-- Live link to the page can be found here -https://0w3nm.github.io/javascript_portfolio_2_project_rock_paper_scissors_game/
+- Live link to the page can be found here -[GitHub](https://0w3nm.github.io/javascript_portfolio_2_project_rock_paper_scissors_game/)
   
 ## Web Browser used -
 
@@ -154,7 +154,7 @@ This game is targeted at all age groups that simply wish to pass the time with t
 - When deciding to do this project i looked at multiple sources for inspiration which came from:
 
   - [Geeksforgeeks](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/) as they had a fully fledge game that i could see and look at the inner workings of so that i could develop into my own creation.
-  - [Stackoverflow](https://stackoverflow.com/questions/22623331/rock-paper-scissors-lizard-spock-in-javascript/) showed a more specified version of what was needed as i could learn and work that code into mine to gain similar results
+  - [Stackoverflow](https://stackoverflow.com/questions/22623331/rock-paper-scissors-lizard-spock-in-javascript/) showed a more specified version of what was needed as i could learn and work that code into mine to gain similar results.
   - [CodeInstitute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/) walkthrough project gave the stepping stones on building a project that had randomisation in it to build my project.
   
   - [W3Schools](https://www.w3schools.com/js/js_htmldom_eventlistener.asp/) helped me understand how to place event listeners on the buttons.
@@ -162,33 +162,30 @@ This game is targeted at all age groups that simply wish to pass the time with t
   - [CodeAcademy](https://www.codecademy.com/forum_questions/5198f3017773428a500017b5#:~:text=To%20colored%20just%20one%20word) helped me solve my issue of coloring indivdual words.
 
   - [CodeInstitute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+HE101+2/courseware/fcc67a894619420399970ae84fc4802f/05a72bc3e032457d8a3d108d33656c72/) was also used when it came to form validation.
-  - Aswll as [Stackoverflow](https://stackoverflow.com/questions/23556533/how-do-i-make-an-input-field-accept-only-letters-in-javascript) which was used and adapted to fit my projects needs.
+  - Aswell as [Stackoverflow](https://stackoverflow.com/questions/23556533/how-do-i-make-an-input-field-accept-only-letters-in-javascript) which was used and adapted to fit my projects needs.
   - I also used several locations when it came to authorisation as more learning was need on this subject:
   [W3Schools](https://www.w3schools.com/js/tryit.asp?filename=tryjs_validation_js)
-  [Stackoverflow](https://stackoverflow.com/questions/2018567/loading-another-html-page-from-javascrip) and also [Stackoverflow](https://stackoverflow.com/questions/23556533/how-do-i-make-an-input-field-accept-only-letters-in-javascript)
+  I used two sites to help on this subject [Stackoverflow](https://stackoverflow.com/questions/2018567/loading-another-html-page-from-javascrip) and also [Stackoverflow](https://stackoverflow.com/questions/23556533/how-do-i-make-an-input-field-accept-only-letters-in-javascript)
   [TestBook](https://testbook.com/web-development/how-do-i-link-a-submit-button-to-another-webpage-using-html#:~:text=In%20HTML%2C%20linking%20submit%20buttons,property%20of%20the%20Anchor%20element.)
   There was also some tutor help on [CodeInstitute](https://learn.codeinstitute.net/ci_support/diplomainsoftwaredevelopmentpredictiveanalytics/support)
 
 - There were a number of places i went to help with breakpoint issues such as:
   [W3Schools](https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp) as this offered examples of commonly used break points along with [Slack](https://slack.com/intl/en-gb/) through message boards posting with other students and tutors.
-  [GitHub](https://github.com/0w3nM/html-css-portfolio1-Moon-Landing/blob/main/assets/css/style.css)by looking at previous project i had to done to remeber what was needed and how it was done.
-  - [W3Schools](https://www.w3schools.com/css/css3_gradients.asp/)was used to learn about graident colouring for backgrounds.
+  [GitHub](https://github.com/0w3nM/html-css-portfolio1-Moon-Landing/blob/main/assets/css/style.css) by looking at previous project i had to done to remeber what was needed and how it was done.
+  - [W3Schools](https://www.w3schools.com/css/css3_gradients.asp/) was used to learn about graident colouring for backgrounds.
   - [CodeInstitute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+HE101+2/courseware/fcc67a894619420399970ae84fc4802f/643317b091da4eef98fe9e0812a71715/) section on Form Inputs help develop an input box for this project, giving insights into what is needed.
   
-  -[W3Schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_link_background) aswell as[W3Schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_link_advanced) were used to style the link the the rules page after i need more information on the topic.
+  - I again used two sites to help gain more understanding on this topic through [W3Schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_link_background) aswell as [W3Schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_link_advanced) as they helped to style the link to the rules page.
 
-  
-    
 ## Media-
 
 - Icons for the buttons were taken from [FontAwesome](https://fontawesome.com/)
   
-- Color for this project was used from [W3school] (https://www.w3schools.com/colors/color_tryit.asp?hex=BC8F8F/),
-  (https://www.w3schools.com/css/css3_gradients.asp/)
+- Color for this project was used from [W3School](https://www.w3schools.com/colors/color_tryit.asp?hex=BC8F8F/) and also [W3School](https://www.w3schools.com/css/css3_gradients.asp/)
 
 - For button positioning [Geeksforgeeks](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/) helped with understanding how to manage this.
 
-- Favicon was made through the[Favicon](https://www.favicon.cc/) website.
+- Favicon was made through the [Favicon](https://www.favicon.cc/) website.
   
 - [YouTube](https://www.youtube.com/watch?v=94UM0Ss3uoU) was used from the TBS YouTube channel as another way to understand the rules.
 
