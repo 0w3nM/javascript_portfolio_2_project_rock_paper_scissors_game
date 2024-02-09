@@ -93,6 +93,10 @@ html {
     font-family: "Skranji", "sans-serif"
 }
 
+.link:active, a:hover{
+    background-color: #ffffff;
+}
+
 /*--------------------Buttons */
 .btn--brown {
     background-color: #a52a2a;

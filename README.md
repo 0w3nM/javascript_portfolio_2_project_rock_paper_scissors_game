@@ -151,17 +151,45 @@ This game is targeted at all age groups that simply wish to pass the time with t
 
 ## Content-
 
-- Inspiration for the project came from:
+- When deciding to do this project i looked at multiple sources for inspiration which came from:
 
-  - [Geeksforgeeks](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/)
-  - [Stackoverflow](https://stackoverflow.com/questions/22623331/rock-paper-scissors-lizard-spock-in-javascript/)
-  - [CodeInstitute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+JSE_PAGPPF+2021_Q2/courseware/30137de05cd847d1a6b6d2c7338c4655/c3bd296fe9d643af86e76e830e1470dd/)
+  - [Geeksforgeeks](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/) as they had a fully fledge game that i could see and look at the inner workings of so that i could develop into my own creation.
+  - [Stackoverflow](https://stackoverflow.com/questions/22623331/rock-paper-scissors-lizard-spock-in-javascript/)showed a more specified version of what was needed as i could learn and work that code into mine to gain similar results
+  - [CodeInstitute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/234519d86b76411aa181e76a55dabe70/)walkthrough project gave the stepping stones on building a project that had randomisation in it to build my project.
+  
+  - [W3Schools](https://www.w3schools.com/js/js_htmldom_eventlistener.asp/)helped me understand how to place event listeners on the buttons.
 
+  - [CodeAcademy](https://www.codecademy.com/forum_questions/5198f3017773428a500017b5#:~:text=To%20colored%20just%20one%20word)helped me solve my issue of coloring indivdual words.
+
+  - [CodeInstitute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+HE101+2/courseware/fcc67a894619420399970ae84fc4802f/05a72bc3e032457d8a3d108d33656c72/) was also used when it came to form validation.
+  - Aswll as [Stackoverflow](https://stackoverflow.com/questions/23556533/how-do-i-make-an-input-field-accept-only-letters-in-javascript)which was used and adapted to fit my projects needs.
+  - I also used several locations when it came to authorisation as more learning was need on this subject:
+  [W3Schools](https://www.w3schools.com/js/tryit.asp?filename=tryjs_validation_js)
+  [Stackoverflow](https://stackoverflow.com/questions/2018567/loading-another-html-page-from-javascrip , https://stackoverflow.com/questions/23556533/how-do-i-make-an-input-field-accept-only-letters-in-javascript)
+  [TestBook](https://testbook.com/web-development/how-do-i-link-a-submit-button-to-another-webpage-using-html#:~:text=In%20HTML%2C%20linking%20submit%20buttons,property%20of%20the%20Anchor%20element.)
+  There was also some tutor help on [CodeInstitute](https://learn.codeinstitute.net/ci_support/diplomainsoftwaredevelopmentpredictiveanalytics/support)
+
+- There were a number of places i went to help with breakpoint issues such as:
+  [W3Schools](https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp) as this offered examples of commonly used break points along with [Slack](https://slack.com/intl/en-gb/)through message boards posting with other students and tutors.
+  [GitHub](https://github.com/0w3nM/html-css-portfolio1-Moon-Landing/blob/main/assets/css/style.css)by looking at previous project i had to done to remeber what was needed and how it was done.
+  - [W3Schools](https://www.w3schools.com/css/css3_gradients.asp/)was used to learn about graident colouring for backgrounds.
+  - [CodeInstitute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+HE101+2/courseware/fcc67a894619420399970ae84fc4802f/643317b091da4eef98fe9e0812a71715/) section on Form Inputs help develop an input box for this project, giving insights into what is needed.
+  
+  -[W3Schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_link_background, https://www.w3schools.com/css/tryit.asp?filename=trycss_link_advanced) were used to style the link the the rules page after i need more information on the topic.
+
+  
+    
 ## Media-
 
-- Icons for buttons the buttons were taken from [FontAwesome](https://fontawesome.com/)
-- Color was used from [W3school] (https://www.w3schools.com/colors/color_tryit.asp?hex=BC8F8F/),
+- Icons for the buttons were taken from [FontAwesome](https://fontawesome.com/)
+  
+- Color for this project was used from [W3school] (https://www.w3schools.com/colors/color_tryit.asp?hex=BC8F8F/),
   (https://www.w3schools.com/css/css3_gradients.asp/)
-- For button positioning was looked at on [Geeksforgeeks](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/)
-- Form Validation was used from [CodeInstitute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+HE101+2020/courseware/fcc67a894619420399970ae84fc4802f/05a72bc3e032457d8a3d108d33656c72/?child=last/), (https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+HE101+2020/courseware/fcc67a894619420399970ae84fc4802f/05a72bc3e032457d8a3d108d33656c72/?child=last/)
+
+- For button positioning [Geeksforgeeks](https://www.geeksforgeeks.org/rock-paper-and-scissor-game-using-javascript/) helped with understanding how to manage this.
+
 - Favicon was made through the[Favicon](https://www.favicon.cc/) website.
+  
+- [YouTube](https://www.youtube.com/watch?v=94UM0Ss3uoU)was used from the TBS YouTube channel as another way to understand the rules.
+
+
